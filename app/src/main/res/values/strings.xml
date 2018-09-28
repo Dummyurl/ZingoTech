@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Employee Management</string>
+
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="file_provider_authority" translatable="false">app.zingo.employeemanagement.fileprovider</string>
+
+    <array name="options_icon">
+
+        <item>@drawable/profile_menu</item>
+        <item>@drawable/logout</item>
+
+    </array>
+
+    <array name="options_name">
+        <item>Profile</item>
+        <item>Logout</item>
+
+    </array>
+
+
+</resources>

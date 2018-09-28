@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/primary_backgrouond"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.SplashScreenActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/primary_backgrouond"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:id="@+id/app_log"
+                android:src="@drawable/app_logo"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Activity Management"
+                android:id="@+id/hotel_title_text"
+                android:textColor="#ffffff"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Powered by  "
+                android:textColor="#ffffff"
+                android:layout_marginTop="30dp"
+                android:id="@+id/hotel_title_sub_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Zingo Hotels"
+                android:id="@+id/splash_hotel_title"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                />
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0"
+            android:id="@+id/version_code"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="&#9400; Lucida Hospitality Pvt Ltd"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

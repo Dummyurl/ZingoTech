@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757348641873",
+    "firebase_url": "https://zingotech-68dd1.firebaseio.com",
+    "project_id": "zingotech-68dd1",
+    "storage_bucket": "zingotech-68dd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757348641873:android:f460076f71edd02a",
+        "android_client_info": {
+          "package_name": "app.zingo.employeemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757348641873-033kpjes2d0gv1c9t6ebmnucjka7rce0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.zingo.employeemanagement",
+            "certificate_hash": "1f1380323348bc3b4e74e259dc5ff18fbfbb28bc"
+          }
+        },
+        {
+          "client_id": "757348641873-nob5hk6cfahiavlmo2v0i7r0p6h0i2v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO8FJ68BAivE3xvLaUo9fLShDysl6ItbQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757348641873-nob5hk6cfahiavlmo2v0i7r0p6h0i2v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

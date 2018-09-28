@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dadada"
+    tools:context=".Activity.NotificationScreenActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/location_et"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Location"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"/>
+
+            <LinearLayout
+                android:id="@+id/lan_lat"
+                android:layout_below="@+id/location_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+                <EditText
+                    android:id="@+id/employee_name"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:hint="Employee Name"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#ffffff"/>
+                <EditText
+                    android:id="@+id/date_time"
+                    android:layout_width="0dp"
+                    android:enabled="false"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:hint="Time"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ffffff"/>
+
+            </LinearLayout>
+
+            <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/maps"
+                android:layout_below="@+id/lan_lat"
+                android:layout_margin="25dp"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />-->
+            <com.google.android.gms.maps.MapView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_below="@id/lan_lat"
+                android:layout_margin="5dp"
+                android:id="@+id/google_map_view"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="15"
+        android:background="#FF0000"
+        android:text="Back to Home"
+        android:id="@+id/back_home"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
